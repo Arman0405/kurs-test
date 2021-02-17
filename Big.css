@@ -93,7 +93,10 @@ html, body  {margin:0;}
 
 
 .name-sur .info-tx1 {
-    font-size: calc(0.7em + 0.8vw);
+    font-size: calc(0.8em + 1.5vw);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
     font-family: 'Montserrat Alternates', sans-serif;
     font-weight: bold;
     margin-bottom: 10px;
@@ -108,14 +111,14 @@ html, body  {margin:0;}
 .name-sur .info-tx2 {
     margin-top: 10px;
     font-family: 'Montserrat Alternates', sans-serif;
-    font-size: calc(1em + 0.8vw);
+    font-size: calc(1em + 1.5vw);
     font-weight: 500;
     margin-bottom: 10px;
 }
 .name-sur .info-tx3 {
     margin-top: 10px;
     font-family: 'Roboto', sans-serif;
-    font-size: calc(0.7em + 0.8vw);
+    font-size: calc(0.7em + 1.2vw);
     font-weight: lighter;
     margin-bottom: 5px;
 }
@@ -125,29 +128,27 @@ html, body  {margin:0;}
 }
 .opyt-rab {
     width: 70%;
-    margin-left: 30%;
+    margin-left: 25%;
 }
 .butons button {
     border: none;
     background: white;
     margin-top: 20px;
     margin-left: 15%;
-    font-size: calc(0.7em + 0.7vw);
+    font-size: calc(0.8em + 1.1vw);
 }
 .kinos {
     font-family: 'Roboto', sans-serif;
     font-weight:bold;
     float: left;
     color: #ff7900;
-    margin-right: 5%;
 }
 .dubliaj {
     font-family: 'Roboto', sans-serif;
     font-weight:bold;
     float: right;
     color: #ff7900;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-right: 3%;
 }
 .block1 {margin-left: 7%; width: 35%; float:left;}
 .block1 ul {
@@ -160,7 +161,7 @@ html, body  {margin:0;}
     font-family: 'Montserrat Alternates', sans-serif;
     font-weight:500;
 }
-.block2 {margin-left: 10%; float:right; margin-right: 10%;}
+.block2 {margin-left: 10%; float:right; margin-right: 1%;}
 .block2 ul {
     list-style-type: none; text-align: right;
 }
@@ -178,6 +179,7 @@ html, body  {margin:0;}
     font-family: 'Montserrat Alternates', sans-serif;
     font-weight: 300;
     margin-bottom: 1px;   
+    font-size: calc(1.5em + 2vw);
 }
 .results .dotes {
     margin-top: 1px;
@@ -186,18 +188,20 @@ html, body  {margin:0;}
     color: #ff7900;
     margin-bottom: 10px;
 }
-.proof1, .proof2, .proof3, .proof4 {float:left; width: 17%;margin-left: 4%; margin-right: 4%;}
+.proof1, .proof2, .proof3, .proof4 {float:left; width: 40%; height: calc(100px + 5vw);margin-left: 4%; margin-right: 4%;}
 .proofs .glava {
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: calc(0.1em + 1.7vw);
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 5px;
 }
 .proofs .dopol {
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
     color: #404040;
     font-size: calc(0.3em + 1vw);
+    margin-top: 5px;
 }
 .back2 {
     padding-bottom: 5%;
@@ -220,8 +224,9 @@ html, body  {margin:0;}
     color: #ff7900;
     margin-bottom: 25px;
 }
-.tab-lis {margin-left: calc(8% + 1.15vw);}
+.tab-lis {margin-left: calc(7% + 8vw);}
 .tab-lis tr {
+    vertical-align: middle;
     float:left;
     width: 35%;
     margin: 10px 5%;
@@ -232,16 +237,16 @@ html, body  {margin:0;}
     font-size: calc(1em + 2vw);
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
-    padding: 5px 15px;
+    padding: 5px 10px;
 }
 .tab-lis .tb-img {
-    padding: 5px 15px;
+    padding: 5px 10px;
 }
 .tab-lis img {
     width: calc(1.4em + 1vw);
 }
 .tab-lis .tb-tx {
-    font-size: calc(0.5em + 0.8vw);
+    font-size: calc(0.8em + 1vw);
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
     padding: 5px 15px;
@@ -257,6 +262,23 @@ html, body  {margin:0;}
     font-weight: 1000;
     color: #ff7900;
     margin-bottom: 25px;
+}
+.lef {margin: 5px 30% 5px 10%; width: 90%}
+.rig {margin: 5px 10% 5px 40%; width: 90%;}
+.tab-lisq tr {
+    float:left;
+}
+.tab-lisq .tb-img {
+    padding: 5px 10px;
+}
+.tab-lisq img {
+    width: calc(1.4em + 1vw);
+}
+.tab-lisq .tb-tx {
+    font-size: calc(0.8em + 1vw);
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    padding: 5px 15px;
 }
 .back3 {
     padding-bottom: 5%;

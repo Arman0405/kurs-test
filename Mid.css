@@ -188,18 +188,21 @@ html, body  {margin:0;}
   color: #ff7900;
   margin-bottom: 10px;
 }
-.proof1, .proof2, .proof3, .proof4 {float:left; width: 17%;margin-left: 4%; margin-right: 4%;}
+.proofs {margin-left: auto; margin-right: auto;}
+.proof1, .proof2, .proof3, .proof4 {float:left; width: 40%; height: 100px; margin-left: 4%; margin-right: 4%; margin-bottom: calc(1em + 2vw);}
 .proofs .glava {
   font-family: 'Montserrat Alternates', sans-serif;
-  font-size: calc(0.3em + 1vw);
+  font-size: calc(0.7em + 1.2vw);
   margin-left: auto;
+  margin-bottom: 3px;
   margin-right: auto;
 }
 .proofs .dopol {
   font-family: 'Roboto', sans-serif;
   font-weight: lighter;
   color: #404040;
-  font-size: calc(0.3em + 0.6vw);
+  font-size: calc(0.3em + 0.8vw);
+  margin-top: 3px;
 }
 .back2 {
   padding-bottom: 5%;
@@ -245,8 +248,34 @@ html, body  {margin:0;}
 .tab-lis .tb-tx {
   font-size: calc(0.25em + 1vw);
   font-family: 'Roboto', sans-serif;
-  font-weight: lighter;
+  font-weight: normal;
   padding: 5px 7px;
+}
+.tab-lisq {margin-left: calc(6% + 1.15vw);}
+.tab-lisq tr {
+  float:left;
+  width: 40%;
+  margin: 10px 3%;
+  border: #ff7900 1px solid;
+}
+.tab-lisq .tb-num {
+  color: #ff7900;
+  font-size: calc(1em + 1vw);
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+  padding: 5px 10px;
+}
+.tab-lisq .tb-img {
+  padding: 5px 7px;
+}
+.tab-lisq img {
+  width: calc(1.4em + 1vw);
+}
+.tab-lisq .tb-tx {
+  font-size: calc(0.25em + 0.9vw);
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  padding: 5px 3px;
 }
 .kurs-res h1 {
   font-family: 'Montserrat Alternates', sans-serif;
