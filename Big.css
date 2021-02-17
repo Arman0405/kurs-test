@@ -1,0 +1,268 @@
+.row:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+.row { display: inline-block;}
+*html .row { height: 1%;}
+.row { display: block;}
+
+html, body  {margin:0;}
+
+.head {margin-bottom: 5%;}
+.contact {
+    margin: 2% 15% 4% 10%;
+    max-width: 50%;
+    float: left;
+    left: 7%;
+}
+.con-tx-1 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: calc(1.5em + 0.7vw);
+    font-weight: 500;
+    color: #ff7900;
+}
+.con-tx .con-tx-2 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: rgb(36,36,36);
+    font-size: calc(0.6em + 0.7vw);
+
+}
+
+.social-pos {
+    float:right;
+    margin-top: 1.8%;
+    margin-right: 10%;
+}
+.co-number {
+    font-size: calc(1em + 0.4vw);
+    font-family: 'Montserrat Alternates', sans-serif;
+}   
+.ph-number  {
+    margin-bottom: -15px;
+}
+.co-number p {
+    margin-top: -15px;
+}
+.num-img {
+    width: calc(0.6em + 1vw); margin-right: 7px;
+  }
+
+.kurs {
+    padding-bottom: 10%;
+    margin-bottom: 150px;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 30%, rgba(250,119,0,0.1) 100%);
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    padding-left:7%;padding-right:7%;
+}
+.kurs-tx {width: 60%; }
+.kurs-tx h1 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #ff7900;
+    font-size: calc(2em + 0.7vw);
+}
+.kurs-tx h2 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: calc(1.3em + 0.7vw);
+}
+.kurs-tx p {
+    font-family: 'Roboto', sans-serif;
+    font-size: calc(0.7em + 0.7vw);
+}
+.kurs-tx ul {list-style-image: url(./imgs/Galochka.png);margin-top: 5%;}
+.kurs-tx ul li {
+    font-size: calc(1em + 0.7vw);
+    padding: 15px 10px;
+}
+.num1 {display:inline-block; font-size: calc(1em + 0.8vw); margin-top: 30px; font-family: 'Roboto', sans-serif; font-weight: lighter;}
+.num1-img{float:left;padding-right: 20px; width:calc(1em + 0.7vw);}
+.num1-tx{float:left;}
+
+.num2 {display:inline-block; font-size: calc(1em + 0.8vw); margin-top: 30px; font-family: 'Roboto', sans-serif; font-weight: lighter;}
+.num2-img{float:left;padding-right: 20px; width:calc(1em + 0.7vw);}
+.num2-tx{float:left;}
+
+.num3 {display:inline-block; font-size: calc(1em + 0.8vw); margin-top: 30px; font-family: 'Roboto', sans-serif; font-weight: lighter;}
+.num3-img{float:left;padding-right: 20px; width:calc(1em + 0.7vw);}
+.num3-tx{float:left;}
+
+
+.name-sur .info-tx1 {
+    font-size: calc(0.7em + 0.8vw);
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.name-sur .dotes {
+    margin-top: 10px;
+    font-size: calc(1.5em + 2vw);
+    font-weight: 1000;
+    color: #ff7900;
+    margin-bottom: 10px;
+}
+.name-sur .info-tx2 {
+    margin-top: 10px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: calc(1em + 0.8vw);
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.name-sur .info-tx3 {
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: calc(0.7em + 0.8vw);
+    font-weight: lighter;
+    margin-bottom: 5px;
+}
+.links a img {
+    width: calc(1em + 1vw);
+    margin: 5px 10px;
+}
+.opyt-rab {
+    width: 70%;
+    margin-left: 30%;
+}
+.butons button {
+    border: none;
+    background: white;
+    margin-top: 20px;
+    margin-left: 15%;
+    font-size: calc(0.7em + 0.7vw);
+}
+.kinos {
+    font-family: 'Roboto', sans-serif;
+    font-weight:bold;
+    float: left;
+    color: #ff7900;
+    margin-right: 5%;
+}
+.dubliaj {
+    font-family: 'Roboto', sans-serif;
+    font-weight:bold;
+    float: right;
+    color: #ff7900;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.block1 {margin-left: 7%; width: 35%; float:left;}
+.block1 ul {
+    list-style-type: none; text-align: left;
+}
+.block1 ul li {
+    font-size: calc(0.2em + 1.5vw);
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight:500;
+}
+.block2 {margin-left: 10%; float:right; margin-right: 10%;}
+.block2 ul {
+    list-style-type: none; text-align: right;
+}
+.block2 ul li {
+    font-size: calc(0.2em + 1.5vw);
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight:500;
+}
+.results {
+    margin-top: 9%;
+}
+.results h1 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 300;
+    margin-bottom: 1px;   
+}
+.results .dotes {
+    margin-top: 1px;
+    font-size: calc(1.5em + 2vw);
+    font-weight: 1000;
+    color: #ff7900;
+    margin-bottom: 10px;
+}
+.proof1, .proof2, .proof3, .proof4 {float:left; width: 17%;margin-left: 4%; margin-right: 4%;}
+.proofs .glava {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: calc(0.1em + 1.7vw);
+    margin-left: auto;
+    margin-right: auto;
+}
+.proofs .dopol {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    color: #404040;
+    font-size: calc(0.3em + 1vw);
+}
+.back2 {
+    padding-bottom: 5%;
+    margin-bottom: 150px;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,0.2) 10%, rgba(250,119,0,0.09) 50%); 
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+}
+.kurs-barysy {margin-bottom: 10%;}
+.kurs-barysy h1 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: calc(1em + 1.5vw);
+    margin-bottom: 1px;
+}
+.kurs-barysy .dotes {
+    margin-top: 1px;
+    font-size: calc(1.5em + 2vw);
+    font-weight: 1000;
+    color: #ff7900;
+    margin-bottom: 25px;
+}
+.tab-lis {margin-left: calc(8% + 1.15vw);}
+.tab-lis tr {
+    float:left;
+    width: 35%;
+    margin: 10px 5%;
+    border: #ff7900 1px solid;
+}
+.tab-lis .tb-num {
+    color: #ff7900;
+    font-size: calc(1em + 2vw);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    padding: 5px 15px;
+}
+.tab-lis .tb-img {
+    padding: 5px 15px;
+}
+.tab-lis img {
+    width: calc(1.4em + 1vw);
+}
+.tab-lis .tb-tx {
+    font-size: calc(0.5em + 0.8vw);
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    padding: 5px 15px;
+}
+.kurs-res h1 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: calc(1em + 1.5vw);
+    margin-bottom: 1px;
+}
+.kurs-res .dotes {
+    margin-top: 1px;
+    font-size: calc(1.5em + 2vw);
+    font-weight: 1000;
+    color: #ff7900;
+    margin-bottom: 25px;
+}
+.back3 {
+    padding-bottom: 5%;
+    margin-bottom: 150px;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,0.2) 10%, rgba(250,119,0,0.1) 40%); 
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+}
