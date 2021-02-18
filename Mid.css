@@ -297,3 +297,171 @@ html, body  {margin:0;}
   border-bottom-left-radius: 15%;
   border-bottom-right-radius: 15%;
 }
+.kurs-paket h1 {
+  font-size: calc(1em + 1vw);
+  font-family: 'Montserrat Alternates', sans-serif;
+  margin-bottom: 1px;
+}
+.kurs-paket .dotes {
+  margin-top: 1px;
+  font-size: calc(1em + 2vw);
+  font-weight: 1000;
+  color: #ff7900;
+  margin-bottom: 25px;
+}
+.pakets {display:none;}
+.paket1 {
+    width: calc(50.33% + 4vw);
+    height: calc(46vw + 3em);
+    margin-left: auto; margin-right: auto;
+    padding-right: calc(2.5em + 2.5vw);
+    padding-left: calc(2.5em + 2.5vw);
+    padding-bottom: calc(0.5em + 0.5vw);
+    border-radius: 15%;
+    box-shadow: 0 0 50px #ff7900;
+    transition: background 0.5s linear 0s
+}
+.paket1 h2 {
+    margin-left:auto; margin-right:auto;
+    padding-top: calc(7px + 3vw);
+    font-size: calc(0.8em + 3.5vw);
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin-bottom: 5px;
+}
+.tsena1 {
+    margin-top: 5px;
+    font-size: calc(0.4em + 2vw);
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 1000;
+    margin-bottom:5px;
+}
+.tsena2 {
+    margin-top: 5px;
+    font-size: calc(0.6em + 2.5vw);
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #ff7900;
+    font-weight: 1000;
+    margin-bottom:10px;
+}
+.dop-inf1 {
+    color: #1a1a1a;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 15px;
+}
+.dop-inf1 p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: calc(0.4em + 1.2vw);
+}
+.mordop-inf1 {
+    font-size: calc(0.4em + 1.7vw);
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.paket1:hover {background: #ff7900; box-shadow: 0 0 50px grey;}
+.paket1:hover h2 {color:white;}
+.paket1:hover .tsena2{color:white;}
+.paket1:hover .mordop-inf1 {color:white;}
+
+.paket2 {
+    width: calc(50.33% + 4vw);
+    height: calc(45vw + 3vw);
+    margin-left: auto; margin-right: auto;
+    padding-right: calc(2.5em + 2.5vw);
+    padding-left: calc(2.5em + 2.5vw);
+    padding-bottom: calc(0.5em + 0.5vw);
+    border-radius: 15%;
+    box-shadow: 0 0 50px #ff7900;
+    transition: background 0.5s linear 0s
+}
+.paket2 h2 {
+    margin-left:auto; margin-right:auto;
+    padding-top: calc(7px + 3vw);
+    font-size: calc(0.8em + 3.5vw);
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin-bottom: 5px;
+}
+.tsena12 {
+    margin-top: 5px;
+    font-size: calc(0.4em + 2vw);
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 1000;
+    margin-bottom:5px;
+}
+.tsena22 {
+    margin-top: 5px;
+    font-size: calc(0.6em + 2.5vw);
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #ff7900;
+    font-weight: 1000;
+    margin-bottom:10px;
+}
+.dop-inf2 {
+    color: #1a1a1a;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 15px;
+}
+.dop-inf2 p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: calc(0.4em + 1.2vw);
+}
+.mordop-inf2 {
+    font-size: calc(0.4em + 1.7vw);
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.paket2:hover {background: #ff7900; box-shadow: 0 0 50px grey;}
+.paket2:hover h2 {color:white;}
+.paket2:hover .tsena2{color:white;}
+.paket2:hover .mordop-inf1 {color:white;}
+
+.paket3 {
+    width: calc(50.33% + 4vw);
+    height: calc(46vw + 3vw);
+    margin-left: auto; margin-right: auto;
+    padding-right: calc(2.5em + 2.5vw);
+    padding-left: calc(2.5em + 2.5vw);
+    padding-bottom: calc(0.5em + 0.5vw);
+    border-radius: 15%;
+    box-shadow: 0 0 50px #ff7900;
+    transition: background 0.5s linear 0s
+}
+.paket3 h2 {
+    margin-left:auto; margin-right:auto;
+    padding-top: calc(7px + 3vw);
+    font-size: calc(0.8em + 3.5vw);
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin-bottom: 5px;
+}
+.tsena13 {
+    margin-top: 5px;
+    font-size: calc(0.4em + 2vw);
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 1000;
+    margin-bottom:5px;
+}
+.tsena23 {
+    margin-top: 5px;
+    font-size: calc(0.6em + 2.5vw);
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #ff7900;
+    font-weight: 1000;
+    margin-bottom:10px;
+}
+.dop-inf {
+    color: #1a1a1a;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 15px;
+}
+.dop-inf3 p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: calc(0.4em + 1.2vw);
+}
+.mordop-inf3 {
+    font-size: calc(0.4em + 1.7vw);
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.paket3:hover {background: #ff7900; box-shadow: 0 0 50px grey;}
+.paket3:hover h2 {color:white;}
+.paket3:hover .tsena2{color:white;}
+.paket3:hover .mordop-inf1 {color:white;}
