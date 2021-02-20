@@ -21,13 +21,13 @@
         <div class="contact row">
 
             <div class="contact-img">
-
+                <img src="imgs/Avatarka.png">
             </div>
             
             <div class="con-tx" align="left">
                 <div class="con-tx-1">Алма Әділқызы</div>
                 
-                <div class="con-tx-2">Кино, дубляжы актриссасы, диктор</div>
+                <div class="con-tx-2">Кино, дубляж актриссасы, диктор</div>
 
             </div>
 
@@ -51,7 +51,7 @@
 
     <div class="main-content">
 
-        <div class="kurs row">
+        <div class="kurs row" align="center">
 
             <div class="kurs-tx" align="left">
 
@@ -85,7 +85,7 @@
             </div>
 
             <div class="kurs-img">
-
+                <img src="imgs/Photo1.png" align="center">
 
 
             </div>
@@ -113,22 +113,22 @@
         <div class="back2">
             <div class="opyt row">
                 <div class="opyt-img">
-                    
+                    <img src="./imgs/Photo2.png">
                 </div>    
 
                 <div class="opyt-rab">
 
                     <div class="butons row">
-                        <button class="kinos">
+                        <button class="kinos" id="kinos" onclick="clickBut1()">
                             Кино жұмыстары
                         </button>
 
-                        <button class="dubliaj">
+                        <button class="dubliaj" id="dubliaj" onclick="clickBut2()">
                             Ірі фильмдердегі дубляж
                         </button>
                     </div>
                     <div class="blocks row">
-                        <div class="block1" align="left">
+                        <div class="block1" id="block1" align="left">
                             <ul>
                                 <li>"Жедел жәрдем"</li>
                                 <li>"Қызыл Алма"</li>
@@ -139,7 +139,7 @@
                             </ul>
                         </div>
 
-                        <div class="block2" align="right">
+                        <div class="block2" id="block2" align="right">
                             <ul>
                                 <li>"Егіздер"</li>
                                 <li>"Махаббатым кеш мені"</li>
@@ -286,52 +286,57 @@
                     </td>
                 </tr>
             </table>
+            <div class="zakaz-beru">
+                <a href="">Заказ Беру!</a>
+            </div>
+        </div>
+        <div class="pakets_smal">
+            <div class="paket1" align="center">
+                <h2>ОНЛАЙН</h1>
+                <p class="tsena1"><del>15.000&#8376;</del></p>
+                <p class="tsena2">5.000&#8376;</p>
 
-            <div class="pakets_smal">
-                <div class="paket1" align="center">
-                    <h2>ОНЛАЙН</h1>
-                    <p class="tsena1"><del>15.000&#8376;</del></p>
-                    <p class="tsena2">5.000&#8376;</p>
-
-                    <div class="dop-inf1">
-                        <p>*Басталуы - 10 наурыз</p>
-                        <p>*Мерзімі 10 күн</p>
-                        <p>*6 видео сабақ</p>
-                        <p>*Сабақты қалаған уақытыңызда оқи аласыз</p>
-                    </div>
-                    <div class="mordop-inf1">10 күн  көлемінде сіз артикуляцияның не екенін, дикцияның қыр сырын, тыныс алу жолдарымен, регисторлар тізбегін білетін боласыз.</div>
+                <div class="dop-inf1">
+                    <p>*Басталуы - 10 наурыз</p>
+                    <p>*Мерзімі 10 күн</p>
+                    <p>*6 видео сабақ</p>
+                    <p>*Сабақты қалаған уақытыңызда оқи аласыз</p>
                 </div>
+                <div class="mordop-inf1">10 күн  көлемінде сіз артикуляцияның не екенін, дикцияның қыр сырын, тыныс алу жолдарымен, регисторлар тізбегін білетін боласыз.</div>
+            </div>
 
-                 <div class="paket2" align="center">
-                    <h2>ОФФЛАЙН</h2>
-                    <p class="tsena12"><del>70.000&#8376;</del></p>
-                    <p class="tsena22">30.000&#8376;</p>
+             <div class="paket2" align="center">
+                <h2>ОФФЛАЙН</h2>
+                <p class="tsena12"><del>70.000&#8376;</del></p>
+                <p class="tsena22">30.000&#8376;</p>
 
-                    <div class="dop-inf2">
-                        <p>*Басталуы - 10 наурыз</p>
-                        <p>*Мерзімі 7 күн</p>
-                        <p>*Нәтиже 3 күннен соң білінеді</p>
-                        <p>*Сабақты қалаған уақытыңызда оқи аласыз</p>
-                    </div>
-                    <div class="mordop-inf2">7 күн бойы дикция, артикуляция, дұрыс дем алуды тәжірибелі маманмен бірге жасайсыз.</div>
+                <div class="dop-inf2">
+                    <p>*Басталуы - 10 наурыз</p>
+                    <p>*Мерзімі 7 күн</p>
+                    <p>*Нәтиже 3 күннен соң білінеді</p>
+                    <p>*Сабақты қалаған уақытыңызда оқи аласыз</p>
                 </div>
+                <div class="mordop-inf2">7 күн бойы дикция, артикуляция, дұрыс дем алуды тәжірибелі маманмен бірге жасайсыз.</div>
+            </div>
 
-                <div class="paket3" align="center">
-                    <h2>КӘСІП</h2>
-                    <p class="tsena13"><del>300.000&#8376;</del></p>
-                    <p class="tsena23">150.000&#8376;</p>
+            <div class="paket3" align="center">
+                <h2>КӘСІП</h2>
+                <p class="tsena13"><del>300.000&#8376;</del></p>
+                <p class="tsena23">150.000&#8376;</p>
 
-                    <div class="dop-inf3">
-                        <p>*Кәсіби тв, радио жүргізуші маманы болу үшін </p>
-                        <p>*8 негізгі сабақ</p>
-                        <p>*Бонус 2 сабақ</p>
-                        <p>*Сабақты қалаған уақытыңызда оқи аласыз</p>
-                    </div>
-                    <div class="mordop-inf3">Бұл курста сенің ерекшелігіңді тауып, мүмкіндігіңді арттыру үшін тек қана саған арналған сабақ барысын ұсынамын. Әр сабақты тереңдетіп оқимыз.</div>
+                <div class="dop-inf3">
+                    <p>*Кәсіби тв, радио жүргізуші маманы болу үшін </p>
+                    <p>*8 негізгі сабақ</p>
+                    <p>*Бонус 2 сабақ</p>
+                    <p>*Сабақты қалаған уақытыңызда оқи аласыз</p>
+                </div>
+                <div class="mordop-inf3">Бұл курста сенің ерекшелігіңді тауып, мүмкіндігіңді арттыру үшін тек қана саған арналған сабақ барысын ұсынамын. Әр сабақты тереңдетіп оқимыз.</div>
                 </div>
             </div>
         </div>
-    </div>
+        <div class="zakaz-beru2">
+            <a href="">Заказ Беру!</a>
+        </div>
     <br><br>
 </body>
 </html>

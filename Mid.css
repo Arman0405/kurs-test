@@ -14,11 +14,12 @@ html, body  {margin:0;}
 
 .head {margin-bottom: 5%;}
 .contact {
-  margin: 2% 15% 4% 10%;
-  max-width: 40%;
+  margin: 2.5% 3% 4% 3%;
+  width: 60%;
   float: left;
   left: 7%;
 }
+.contact-img img{width: calc(2em + 3vw);float:left; margin-right: 10px;}
 .con-tx-1 {
   font-family: 'Montserrat Alternates', sans-serif;
   font-size: calc(1em + 0.7vw);
@@ -59,7 +60,7 @@ html, body  {margin:0;}
   border-bottom-right-radius: 20%;
   padding-left:7%;padding-right:7%;
 }
-.kurs-tx {width: 55%; }
+.kurs-tx {width: 55%; float:left;}
 .kurs-tx h1 {
   font-family: 'Montserrat Alternates', sans-serif;
   color: #ff7900;
@@ -89,7 +90,12 @@ html, body  {margin:0;}
 .num3 {display:inline-block; font-size: calc(0.5em + 0.8vw); margin-top: 15px; font-family: 'Roboto', sans-serif; font-weight: lighter;}
 .num3-img{float:left;padding-right: 10px; width:calc(0.6em + 0.7vw);}
 .num3-tx{float:left;}
-
+.kurs-img{float:left;}
+.kurs-img img {
+    width: calc(3em + 20vw);
+    margin-left: calc(7vw + 2em);
+    border-radius: 10px;
+}
 
 .name-sur .info-tx1 {
   width: 90%;
@@ -125,15 +131,22 @@ html, body  {margin:0;}
   margin: 5px 10px;
 }
 .opyt-rab {
+  float:left;
   width: 70%;
-  margin-left: 30%;
+  margin-left: 0;
+}
+.opyt-img img {
+  width: calc(3em + 18vw);
+  float:left;
+  margin-left: 30px;
+  border-radius: 10px;
 }
 .butons button {
   border: none;
-  background: white;
+  background: none;
   margin-top: 20px;
-  margin-left: 15%;
-  font-size: calc(0.5em + 0.7vw);
+  margin-left: 3%;
+  font-size: calc(0.5em + 1vw);
 }
 .kinos {
   font-family: 'Roboto', sans-serif;
@@ -146,27 +159,27 @@ html, body  {margin:0;}
   font-family: 'Roboto', sans-serif;
   font-weight:bold;
   float: right;
-  color: #ff7900;
-  margin-left: 5%;
+  color: grey;
+  margin-left: 3%;
   margin-right: 5%;
 }
-.block1 {margin-left: 7%; width: 35%; float:left;}
+.block1 {margin-left: 5%; width: 70%; float:left;}
 .block1 ul {
   list-style-type: none; text-align: left;
 }
 .block1 ul li {
-  font-size: calc(0.35em + 1vw);
+  font-size: calc(0.35em + 1.5vw);
   margin-top: 12px;
   margin-bottom: 12px;
   font-family: 'Montserrat Alternates', sans-serif;
   font-weight:500;
 }
-.block2 {margin-left: 10%; float:right; margin-right: 5%;}
+.block2 {margin-left: 5%; display:none; margin-right: 5%;}
 .block2 ul {
-  list-style-type: none; text-align: right;
+  list-style-type: none; text-align: left;
 }
 .block2 ul li {
-  font-size: calc(0.35em + 1vw);
+  font-size: calc(0.35em + 1.5vw);
   margin-top: 12px;
   margin-bottom: 12px;
   font-family: 'Montserrat Alternates', sans-serif;
@@ -411,8 +424,8 @@ html, body  {margin:0;}
 }
 .paket2:hover {background: #ff7900; box-shadow: 0 0 50px grey;}
 .paket2:hover h2 {color:white;}
-.paket2:hover .tsena2{color:white;}
-.paket2:hover .mordop-inf1 {color:white;}
+.paket2:hover .tsena22{color:white;}
+.paket2:hover .mordop-inf2 {color:white;}
 
 .paket3 {
     width: calc(50.33% + 4vw);
@@ -463,5 +476,19 @@ html, body  {margin:0;}
 }
 .paket3:hover {background: #ff7900; box-shadow: 0 0 50px grey;}
 .paket3:hover h2 {color:white;}
-.paket3:hover .tsena2{color:white;}
-.paket3:hover .mordop-inf1 {color:white;}
+.paket3:hover .tsena23{color:white;}
+.paket3:hover .mordop-inf3 {color:white;}
+.zakaz-beru {display:none;}
+.zakaz-beru2 {
+    margin-top: calc(1em + 2vw);
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    padding: 5px 7px;
+    border-radius: 10px;
+    transition: background 0.5s linear 0s;
+    box-shadow: 0 0 20px black;
+}
+.zakaz-beru2 a {text-decoration: none; color: black; font-size: calc(0.2em + 2vw); font-family:'Montserrat Alternates', sans-serif;font-weight: 1000;}
+.zakaz-beru2:hover {background: #ff7900; box-shadow: 0 0 30px #ff7900;}
+.zakaz-beru2:hover a {color:white;}

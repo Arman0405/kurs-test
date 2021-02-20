@@ -14,11 +14,12 @@ html, body  {margin:0;}
 
 .head {margin-bottom: 5%;}
 .contact {
-  margin: 2% 5% 4% 5%;
-  max-width: 45%;
+  margin: 2% 2% 4% 2%;
+  width: 50%;
   float: left;
   left: 7%;
 }
+.contact-img img{width: calc(2em + 3vw);float:left; margin-right: 10px;}
 .con-tx-1 {
   font-family: 'Montserrat Alternates', sans-serif;
   font-size: calc(0.4em + 1.5vw);
@@ -59,6 +60,12 @@ html, body  {margin:0;}
   border-bottom-left-radius: 20%;
   border-bottom-right-radius: 20%;
   padding-left:7%;padding-right:7%;
+}
+.kurs-img{float:left;}
+.kurs-img img {
+    width: calc(3em + 20vw);
+    margin-left: calc(7vw + 2em);
+    border-radius: 10px; display:none;
 }
 .kurs-tx {width: 100%; }
 .kurs-tx h1 {
@@ -126,6 +133,12 @@ html, body  {margin:0;}
 .opyt-rab {
   width: 90%;
 }
+.opyt-img img {
+  width: calc(3em + 18vw);
+  float:left;
+  margin-left: 30px;
+  border-radius: 10px; display:none;
+}
 .butons button {
   border: none;
   background: white;
@@ -144,31 +157,31 @@ html, body  {margin:0;}
   font-family: 'Roboto', sans-serif;
   font-weight:bold;
   float: right;
-  color: #ff7900;
   margin-left: 0%;
   margin-right: 2%;
+  color: grey;
 }
-.block1 {margin-left: -2%; width: 40%; float:left;}
+.block1 {margin-left: -2%; float:left;}
 .block1 ul {
   list-style-type: none; text-align: left;
 }
 .block1 ul li {
-  font-size: calc(0.35em + 1.2vw);
+  font-size: calc(0.35em + 1.5vw);
   margin-top: 12px;
   margin-bottom: 12px;
   font-family: 'Montserrat Alternates', sans-serif;
-  font-weight:500;
+  font-weight:1000;
 }
-.block2 {margin-left: 3%; float:right; margin-right: 0.5%;}
+.block2 {margin-left: 0%; display:none;}
 .block2 ul {
-  list-style-type: none; text-align: right;
+  list-style-type: none; text-align: left;
 }
 .block2 ul li {
-  font-size: calc(0.35em + 1.2vw);
+  font-size: calc(0.35em + 1.5vw);
   margin-top: 12px;
   margin-bottom: 12px;
   font-family: 'Montserrat Alternates', sans-serif;
-  font-weight:500;
+  font-weight:1000;
 }
 .results {
   margin-top: 9%;
@@ -310,7 +323,7 @@ html, body  {margin:0;}
 .pakets {display:none;}
 .paket1 {
     width: calc(50.33% + 4vw);
-    height: calc(52vw + 3em);
+    height: calc(53vw + 3.5em);
     margin-left: auto; margin-right: auto;
     padding-right: calc(2.5em + 2.5vw);
     padding-left: calc(2.5em + 2.5vw);
@@ -411,8 +424,8 @@ html, body  {margin:0;}
 }
 .paket2:hover {background: #ff7900; box-shadow: 0 0 50px grey;}
 .paket2:hover h2 {color:white;}
-.paket2:hover .tsena2{color:white;}
-.paket2:hover .mordop-inf1 {color:white;}
+.paket2:hover .tsena22{color:white;}
+.paket2:hover .mordop-inf2 {color:white;}
 
 .paket3 {
     width: calc(50.33% + 4vw);
@@ -464,5 +477,20 @@ html, body  {margin:0;}
 }
 .paket3:hover {background: #ff7900; box-shadow: 0 0 50px grey;}
 .paket3:hover h2 {color:white;}
-.paket3:hover .tsena2{color:white;}
-.paket3:hover .mordop-inf1 {color:white;}
+.paket3:hover .tsena23{color:white;}
+.paket3:hover .mordop-inf3 {color:white;}
+
+.zakaz-beru{display:none;}
+.zakaz-beru2 {
+    margin-top: calc(1em + 2vw);
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding: 7px 20px;
+    border-radius: 10px;
+    transition: background 0.5s linear 0s;
+    box-shadow: 0 0 10px black;
+}
+.zakaz-beru2 a {text-decoration: none; color: black; font-size: calc(0.2em + 2.2vw); font-family:'Montserrat Alternates', sans-serif;font-weight: 1000;}
+.zakaz-beru2:hover {background: #ff7900; box-shadow: 0 0 15px #ff7900;}
+.zakaz-beru2:hover a {color:white;}
