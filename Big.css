@@ -488,3 +488,4 @@ html, body  {margin:0; transition: background 0.5s linear 0s;}
 .zakaz-beru a {text-decoration: none; color: black; font-size: calc(0.2em + 2vw); font-family:'Montserrat Alternates', sans-serif;font-weight: 1000;}
 .zakaz-beru:hover {background: #ff7900; box-shadow: 0 0 30px #ff7900;}
 .zakaz-beru:hover a {color:white;}
+.zakaz-beru2 {display:none;}
