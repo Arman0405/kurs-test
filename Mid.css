@@ -276,6 +276,7 @@ html, body  {margin:0;}
 .tab-lis tr {
   float:left;
   width: 40%;
+  min-height: calc(2em + 2vw);
   margin: 10px 3%;
   border: #ff7900 1px solid;
 }
