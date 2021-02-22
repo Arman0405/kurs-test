@@ -13,9 +13,9 @@
 html, body  {margin:0;}
 
 .head {margin-bottom: 5%;}
-.contact {
+.contact1 {
   margin: 2% 2% 4% 2%;
-  width: 50%;
+  width: 45%;
   float: left;
   left: 7%;
 }
@@ -32,24 +32,18 @@ html, body  {margin:0;}
   font-size: calc(0.3em + 0.8vw);
 
 }
-
-.social-pos {
-  float:right;
-  margin-top: 2.55%;
-  margin-right: 5%;
-}
-.co-number {
-  font-size: calc(0.2em + 1.4vw);
+.contact2 {float:right;width:45%;margin: 2% 3% 4% 3%;}
+.contact2-img img{float:right;width: calc(2em + 3vw);margin-left: 10px;}
+.con-tx-12 {
   font-family: 'Montserrat Alternates', sans-serif;
-}   
-.ph-number  {
-  margin-bottom: -7px;
+  font-size: calc(0.4em + 1.5vw);
+  color: #ff7900;
+  font-weight: 700;
 }
-.co-number p {
-  margin-top: -6px;
-}
-.num-img {
-  width: calc(0.3em + 0.8vw); margin-right: 3px;
+.con-tx2 .con-tx-22 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: rgb(36,36,36);
+  font-size: calc(0.3em + 0.8vw);
 }
 
 .kurs {
@@ -68,14 +62,10 @@ html, body  {margin:0;}
     border-radius: 10px; display:none;
 }
 .kurs-tx {width: 100%; }
-.kurs-tx h1 {
+.kurs-tx h2 {
   font-family: 'Montserrat Alternates', sans-serif;
   color: #ff7900;
   font-size: calc(0.6em + 0.7vw);
-}
-.kurs-tx h2 {
-  font-family: 'Montserrat Alternates', sans-serif;
-  font-size: calc(0.4em + 0.8vw);
 }
 .kurs-tx p {
   font-family: 'Roboto', sans-serif;
@@ -139,6 +129,18 @@ html, body  {margin:0;}
   margin-left: 30px;
   border-radius: 10px; display:none;
 }
+
+.opyt2-rab {
+    width: 45%;
+    float: right;
+}
+.opyt2-img img {
+    width: calc(3em + 18vw);
+    float:right;
+    margin-left: 30px;
+    margin-right: calc(2em + 1vw);
+    border-radius: 10px;
+}
 .butons button {
   border: none;
   background: white;
@@ -182,6 +184,17 @@ html, body  {margin:0;}
   margin-bottom: 12px;
   font-family: 'Montserrat Alternates', sans-serif;
   font-weight:1000;
+}
+.block12 {float:right; margin-right:calc(1em + 0.5vw); width: 100%; margin-top:calc(.05em + 0.5vw); transition: background 0.5s linear 0s;}
+.block12 ul {
+    list-style-type: none; text-align: left;
+}
+.block12 ul li {
+    font-size: calc(0.3em + 1vw);  
+    margin-top: calc(1em + 0.5vw);
+    margin-bottom: calc(1em + 0.5vw);
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight:500;
 }
 .results {
   margin-top: 9%;
