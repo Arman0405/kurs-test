@@ -135,13 +135,16 @@ html, body  {margin:0;}
   margin: 5px 5px;
 }
 .opyt-rab {
-  width: 90%;
+  margin-left: calc(1em + 1vw);
+  width: 50%;
+  float:left;
 }
 .opyt-img img {
   width: calc(3em + 18vw);
   float:left;
-  margin-left: 30px;
-  border-radius: 10px; display:none;
+  margin-left: calc(0.5em + 0.5vw);
+  border-radius: 10px; 
+  margin-top: calc(1em + 1vw)
 }
 
 .opyt2-rab {
@@ -158,48 +161,48 @@ html, body  {margin:0;}
 .butons button {
   border: none;
   background: white;
-  margin-top: 20px;
-  font-size: calc(0.4em + 1vw);
+  margin-top: 7px;
+  font-size: calc(0.5em + 1vw);
 }
 .kinos {
   font-family: 'Roboto', sans-serif;
   font-weight:bold;
   float: left;
   color: #ff7900;
-  margin-left: 13%;
+  margin-left: 2%;
   margin-right: 0%;
 }
 .dubliaj {
   font-family: 'Roboto', sans-serif;
   font-weight:bold;
-  float: right;
+  float: left;
   margin-left: 0%;
   margin-right: 2%;
-  color: grey;
+  color: #ff7900; display: none;
 }
-.block1 {margin-left: -2%; float:left;}
+.block1 {margin-left: -4%; float:left;}
 .block1 ul {
   list-style-type: none; text-align: left;
 }
 .block1 ul li {
-  font-size: calc(0.35em + 1.5vw);
+  font-size: calc(0.3em + 1vw);
   margin-top: 12px;
   margin-bottom: 12px;
   font-family: 'Montserrat Alternates', sans-serif;
   font-weight:1000;
 }
-.block2 {margin-left: 0%; display:none;}
+.block2 {margin-left: -4%; display:none;}
 .block2 ul {
   list-style-type: none; text-align: left;
 }
 .block2 ul li {
-  font-size: calc(0.35em + 1.5vw);
+  font-size: calc(0.3em + 1vw);
   margin-top: 12px;
   margin-bottom: 12px;
   font-family: 'Montserrat Alternates', sans-serif;
   font-weight:1000;
 }
-.block12 {float:right; margin-right:calc(1em + 0.5vw); width: 100%; margin-top:calc(.05em + 0.5vw); transition: background 0.5s linear 0s;}
+.block12 {float:left; margin-right:calc(1em + 0.5vw); width: 100%; margin-top:calc(.05em + 0.5vw); transition: background 0.5s linear 0s;}
 .block12 ul {
     list-style-type: none; text-align: left;
 }
@@ -208,7 +211,7 @@ html, body  {margin:0;}
     margin-top: calc(1em + 0.5vw);
     margin-bottom: calc(1em + 0.5vw);
     font-family: 'Montserrat Alternates', sans-serif;
-    font-weight:500;
+    font-weight:1000;
 }
 .results {
   margin-top: 9%;

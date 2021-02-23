@@ -138,7 +138,7 @@ html, body  {margin:0;}
 .opyt-rab {
   float:left;
   width: 60%;
-  margin-left: 0;
+  margin-left: calc(1em + 1vw);
 }
 .opyt-img img {
   width: calc(3em + 18vw);
@@ -168,7 +168,7 @@ html, body  {margin:0;}
   background: none;
   margin-top: 20px;
   margin-left: 3%;
-  font-size: calc(0.5em + 1vw);
+  font-size: calc(0.4em + 1.5vw);
 }
 .kinos {
   font-family: 'Roboto', sans-serif;
@@ -180,10 +180,10 @@ html, body  {margin:0;}
 .dubliaj {
   font-family: 'Roboto', sans-serif;
   font-weight:bold;
-  float: right;
-  color: grey;
+  float: left;
+  color: #ff7900;
   margin-left: 3%;
-  margin-right: 5%;
+  margin-right: 5%; display: none;
 }
 .block1 {margin-left: 5%; width: 70%; float:left;}
 .block1 ul {
