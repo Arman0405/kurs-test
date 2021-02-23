@@ -22,28 +22,28 @@ html, body  {margin:0;}
 .contact-img img{width: calc(2em + 3vw);float:left; margin-right: 10px;}
 .con-tx-1 {
   font-family: 'Montserrat Alternates', sans-serif;
-  font-size: calc(0.4em + 1.5vw);
+  font-size: calc(0.3em + 1.5vw);
   color: #ff7900;
   font-weight: 700;
 }
 .con-tx .con-tx-2 {
   font-family: 'Montserrat Alternates', sans-serif;
   color: rgb(36,36,36);
-  font-size: calc(0.3em + 0.8vw);
+  font-size: calc(0.2em + 0.8vw);
 
 }
 .contact2 {float:right;width:45%;margin: 2% 3% 4% 3%;}
 .contact2-img img{float:right;width: calc(2em + 3vw);margin-left: 10px;}
 .con-tx-12 {
   font-family: 'Montserrat Alternates', sans-serif;
-  font-size: calc(0.4em + 1.5vw);
+  font-size: calc(0.3em + 1.5vw);
   color: #ff7900;
   font-weight: 700;
 }
 .con-tx2 .con-tx-22 {
   font-family: 'Montserrat Alternates', sans-serif;
   color: rgb(36,36,36);
-  font-size: calc(0.3em + 0.8vw);
+  font-size: calc(0.2em + 0.8vw);
 }
 
 .kurs {
