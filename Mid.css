@@ -14,7 +14,7 @@ html, body  {margin:0;}
 
 .head {margin-bottom: 5%;}
 .contact1 {
-  margin: 2.5% 3% 4% 3%;
+  margin: 2.5% 0% 4% 1%;
   width: 45%;
   float: left;
   left: 7%;
@@ -23,19 +23,19 @@ html, body  {margin:0;}
 .con-tx-1 {
   font-family: 'Montserrat Alternates', sans-serif;
   font-size: calc(1em + 0.7vw);
-  color: #ff7900;
+  color: rgb(204,0,0);
 }
 .con-tx .con-tx-2 {
   font-family: 'Montserrat Alternates', sans-serif;
   color: rgb(36,36,36);
   font-size: calc(0.4em + 0.7vw);
 }
-.contact2 {float:right;width:43%;margin: 2% 3% 4% 3%;}
+.contact2 {float:right;width:43%;margin: 2% 1% 4% 0%;}
 .contact2-img img{float:right;width: calc(2em + 3vw);margin-left: 10px;}
 .con-tx-12 {
   font-family: 'Montserrat Alternates', sans-serif;
   font-size: calc(1em + 0.7vw);
-  color: #ff7900;
+  color: rgb(204,0,0);
 }
 .con-tx2 .con-tx-22 {
   font-family: 'Montserrat Alternates', sans-serif;
@@ -50,35 +50,32 @@ html, body  {margin:0;}
   background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 30%, rgba(250,119,0,0.1) 100%);
   border-bottom-left-radius: 20%;
   border-bottom-right-radius: 20%;
-  padding-left:7%;padding-right:7%;
+  padding-left:5%;padding-right:2%;
 }
 .kurs-tx {width: 55%; float:left;}
 
 .kurs-tx h2 {
   font-family: 'Montserrat Alternates', sans-serif;
-  color: #ff7900;
-  font-size: calc(1em + 0.7vw);
+  color: rgb(204,0,0);
+  font-size: calc(1em + 1.5vw);
 }
 .kurs-tx p {
   font-family: 'Roboto', sans-serif;
-  font-size: calc(0.4em + 0.9vw);
+  font-size: calc(0.7em + 1vw);
 }
 .kurs-tx ul {list-style-image: url(./imgs/Galochka.png);margin-top: 5%;}
 .kurs-tx ul li {
-  font-size: calc(0.5em + 0.7vw);
+  font-size: calc(0.5em + 1vw);
   padding: 15px 10px;
 }
-.num1 {display:inline-block; font-size: calc(0.5em + 0.8vw); margin-top: 15px; font-family: 'Roboto', sans-serif; font-weight: lighter;}
-.num1-img{float:left;padding-right: 10px; width:calc(0.6em + 0.7vw);}
+.num1 {display:inline-block; font-size: calc(0.6em + 1vw); margin-top: 10px; font-family: 'Roboto', sans-serif; font-weight: lighter;}
+.num1-img{float:left;padding-right: 10px; width:calc(0.6em + 0.7vw); margin-top: 5px;}
 .num1-tx{float:left;}
 
-.num2 {display:inline-block; font-size: calc(0.5em + 0.8vw); margin-top: 15px; font-family: 'Roboto', sans-serif; font-weight: lighter;}
-.num2-img{float:left;padding-right: 10px; width:calc(0.6em + 0.7vw);}
+.num2 {display:inline-block; font-size: calc(0.6em + 1vw); margin-top: 10px; font-family: 'Roboto', sans-serif; font-weight: lighter;}
+.num2-img{float:left;padding-right: 10px; width:calc(0.6em + 0.7vw); margin-top: 5px;}
 .num2-tx{float:left;}
 
-.num3 {display:inline-block; font-size: calc(0.5em + 0.8vw); margin-top: 15px; font-family: 'Roboto', sans-serif; font-weight: lighter;}
-.num3-img{float:left;padding-right: 10px; width:calc(0.6em + 0.7vw);}
-.num3-tx{float:left;}
 .kurs-img{float:left;}
 .kurs-img img {
     width: calc(3em + 20vw);
@@ -86,10 +83,11 @@ html, body  {margin:0;}
     border-radius: 10px;
 }
 
+.AlmaAdilqyzy {margin-top: calc(3em + 3vw);}
 .AigerimBatyrkhan {margin-top:calc(2em + 1vw);}
 .name-sur .info-tx1 {
   width: 90%;
-  font-size: calc(0.4em + 1vw);
+  font-size: calc(0.7em + 1vw); color: rgb(204,0,0);
   font-family: 'Montserrat Alternates', sans-serif;
   font-weight: bold;
   margin-left: auto; margin-right: auto;
@@ -99,7 +97,7 @@ html, body  {margin:0;}
   margin-top: -5px;
   font-size: calc(1em + 2vw);
   font-weight: 1000;
-  color: #ff7900;
+  color: rgb(204,0,0);
   margin-bottom: -5px;
 }
 .name-sur .info-tx2 {
@@ -154,7 +152,7 @@ html, body  {margin:0;}
 }
 .opyt2-rab {
     width: 50%;
-    float: right;
+    float: left;
 }
 .opyt2-img img {
     width: calc(5em + 20vw);
@@ -174,14 +172,14 @@ html, body  {margin:0;}
   font-family: 'Roboto', sans-serif;
   font-weight:bold;
   float: left;
-  color: #ff7900;
+  color: rgb(204,0,0);
   margin-right: 3%;
 }
 .dubliaj {
   font-family: 'Roboto', sans-serif;
   font-weight:bold;
   float: left;
-  color: #ff7900;
+  color: rgb(204,0,0);
   margin-left: 3%;
   margin-right: 5%; display: none;
 }
@@ -207,7 +205,7 @@ html, body  {margin:0;}
   font-family: 'Montserrat Alternates', sans-serif;
   font-weight:500;
 }
-.block12 {float:right; margin-right:calc(1em + 0.5vw); width: 100%; margin-top:calc(2em + 1vw); transition: background 0.5s linear 0s;}
+.block12 {float:left; margin-right:calc(1em + 0.5vw); width: 100%; margin-top:calc(2em + 1vw); transition: background 0.5s linear 0s;}
 .block12 ul {
     list-style-type: none; text-align: left;
 }
@@ -223,15 +221,15 @@ html, body  {margin:0;}
 }
 .results h1 {
   font-family: 'Montserrat Alternates', sans-serif;
-  font-weight: 300;
-  margin-bottom: 1px;   
-  font-size: calc(1em + 1vw);
+  font-weight: 1000;
+  margin-bottom: 1px; color: rgb(204,0,0);
+  font-size: calc(1em + 1.5vw);
 }
 .results .dotes {
   margin-top: 1px;
   font-size: calc(1em + 2vw);
   font-weight: 1000;
-  color: #ff7900;
+  color: rgb(204,0,0);
   margin-bottom: 10px;
 }
 .proofs {margin-left: auto; margin-right: auto;}
@@ -259,29 +257,29 @@ html, body  {margin:0;}
   border-bottom-left-radius: 7%;
   border-bottom-right-radius: 7%;
 }
-.kurs-barysy {margin-bottom: 10%;}
+.kurs-barysy {margin-bottom: 10%; margin-top: 3em;}
 .kurs-barysy h1 {
   font-family: 'Montserrat Alternates', sans-serif;
-  font-size: calc(1em + 1vw);
-  margin-bottom: 1px;
+  font-size: calc(1em + 1.5vw);
+  margin-bottom: 1px; color: rgb(204,0,0);
 }
 .kurs-barysy .dotes {
   margin-top: 1px;
   font-size: calc(1em + 2vw);
   font-weight: 1000;
-  color: #ff7900;
+  color: rgb(204,0,0);
   margin-bottom: 25px;
 }
-.tab-lis {margin-left: calc(6% + 1.15vw);}
+.tab-lis {margin-left: calc(1%);}
 .tab-lis tr {
   float:left;
-  width: 40%;
+  width: 45%;
   height: calc(2em + 2vw);
-  margin: 10px 3%;
-  border: #ff7900 1px solid;
+  margin: 10px 1%;
+  border: rgb(204,0,0) 1px solid;
 }
 .tab-lis .tb-num {
-  color: #ff7900;
+  color: rgb(204,0,0);
   font-size: calc(1em + 1vw);
   font-family: 'Roboto', sans-serif;
   font-weight: bolder;
@@ -294,7 +292,7 @@ html, body  {margin:0;}
   width: calc(1.4em + 1vw);
 }
 .tab-lis .tb-tx {
-  font-size: calc(0.25em + 1vw);
+  font-size: calc(0.5em + 1vw);
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
   padding: 5px 7px;
@@ -303,11 +301,12 @@ html, body  {margin:0;}
 .tab-lisq tr {
   float:left;
   width: 40%;
+  height: calc(2.5em + 3vw);
   margin: 10px 3%;
-  border: #ff7900 1px solid;
+  border: rgb(204,0,0) 1px solid;
 }
 .tab-lisq .tb-num {
-  color: #ff7900;
+  color: rgb(204,0,0);
   font-size: calc(1em + 1vw);
   font-family: 'Roboto', sans-serif;
   font-weight: bolder;
@@ -320,21 +319,21 @@ html, body  {margin:0;}
   width: calc(1.4em + 1vw);
 }
 .tab-lisq .tb-tx {
-  font-size: calc(0.25em + 0.9vw);
+  font-size: calc(0.5em + 1vw);
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
   padding: 5px 3px;
 }
 .kurs-res h1 {
   font-family: 'Montserrat Alternates', sans-serif;
-  font-size: calc(1em + 1vw);
-  margin-bottom: 1px;
+  font-size: calc(1em + 1.5vw);
+  margin-bottom: 1px; color: rgb(204,0,0);
 }
 .kurs-res .dotes {
   margin-top: 1px;
   font-size: calc(1em + 2vw);
   font-weight: 1000;
-  color: #ff7900;
+  color: rgb(204,0,0);
   margin-bottom: 25px;
 }
 .back3 {
@@ -354,7 +353,7 @@ html, body  {margin:0;}
   margin-top: 1px;
   font-size: calc(1em + 2vw);
   font-weight: 1000;
-  color: #ff7900;
+  color: rgb(204,0,0);
   margin-bottom: 25px;
 }
 .pakets {display:none;}
@@ -366,7 +365,7 @@ html, body  {margin:0;}
     padding-left: calc(2.5em + 2.5vw);
     padding-bottom: calc(0.5em + 0.5vw);
     border-radius: 15%;
-    box-shadow: 0 0 50px #ff7900;
+    box-shadow: 0 0 50px rgb(204,0,0);
     transition: background 0.5s linear 0s
 }
 .paket1 h2 {
@@ -387,7 +386,7 @@ html, body  {margin:0;}
     margin-top: 5px;
     font-size: calc(0.6em + 2.5vw);
     font-family: 'Montserrat Alternates', sans-serif;
-    color: #ff7900;
+    color: rgb(204,0,0);
     font-weight: 1000;
     margin-bottom:10px;
 }
@@ -405,9 +404,11 @@ html, body  {margin:0;}
     font-size: calc(0.4em + 1.7vw);
     font-family: 'Montserrat Alternates', sans-serif;
 }
-.paket1:hover {background: #ff7900; box-shadow: 0 0 50px grey;}
+.paket1:hover {background: rgb(204,0,0); box-shadow: 0 0 50px grey;}
 .paket1:hover h2 {color:white;}
+.paket1:hover .tsena1{color:lightgrey;}
 .paket1:hover .tsena2{color:white;}
+.paket1:hover .dop-inf1{color:lightgrey;}
 .paket1:hover .mordop-inf1 {color:white;}
 
 .paket2 {
@@ -418,7 +419,7 @@ html, body  {margin:0;}
     padding-left: calc(2.5em + 2.5vw);
     padding-bottom: calc(0.5em + 0.5vw);
     border-radius: 15%;
-    box-shadow: 0 0 50px #ff7900;
+    box-shadow: 0 0 50px rgb(204,0,0);
     transition: background 0.5s linear 0s
 }
 .paket2 h2 {
@@ -439,7 +440,7 @@ html, body  {margin:0;}
     margin-top: 5px;
     font-size: calc(0.6em + 2.5vw);
     font-family: 'Montserrat Alternates', sans-serif;
-    color: #ff7900;
+    color: rgb(204,0,0);
     font-weight: 1000;
     margin-bottom:10px;
 }
@@ -457,9 +458,11 @@ html, body  {margin:0;}
     font-size: calc(0.4em + 1.7vw);
     font-family: 'Montserrat Alternates', sans-serif;
 }
-.paket2:hover {background: #ff7900; box-shadow: 0 0 50px grey;}
+.paket2:hover {background: rgb(204,0,0); box-shadow: 0 0 50px grey;}
 .paket2:hover h2 {color:white;}
+.paket2:hover .tsena12{color:lightgrey;}
 .paket2:hover .tsena22{color:white;}
+.paket2:hover .dop-inf2 {color:lightgrey;}
 .paket2:hover .mordop-inf2 {color:white;}
 
 .paket3 {
@@ -470,7 +473,7 @@ html, body  {margin:0;}
     padding-left: calc(2.5em + 2.5vw);
     padding-bottom: calc(0.5em + 0.5vw);
     border-radius: 15%;
-    box-shadow: 0 0 50px #ff7900;
+    box-shadow: 0 0 50px rgb(204,0,0);
     transition: background 0.5s linear 0s
 }
 .paket3 h2 {
@@ -491,7 +494,7 @@ html, body  {margin:0;}
     margin-top: 5px;
     font-size: calc(0.6em + 2.5vw);
     font-family: 'Montserrat Alternates', sans-serif;
-    color: #ff7900;
+    color: rgb(204,0,0);
     font-weight: 1000;
     margin-bottom:10px;
 }
@@ -509,9 +512,11 @@ html, body  {margin:0;}
     font-size: calc(0.4em + 1.7vw);
     font-family: 'Montserrat Alternates', sans-serif;
 }
-.paket3:hover {background: #ff7900; box-shadow: 0 0 50px grey;}
+.paket3:hover {background: rgb(204,0,0); box-shadow: 0 0 50px grey;}
 .paket3:hover h2 {color:white;}
+.paket3:hover .tsena13{color:lightgrey;}
 .paket3:hover .tsena23{color:white;}
+.paket3:hover .dop-inf3{color:lightgrey;}
 .paket3:hover .mordop-inf3 {color:white;}
 .zakaz-beru {display:none;}
 .zakaz-beru2 {
@@ -525,7 +530,7 @@ html, body  {margin:0;}
     box-shadow: 0 0 20px black;
 }
 .zakaz-beru2 a {text-decoration: none; color: black; font-size: calc(0.2em + 2vw); font-family:'Montserrat Alternates', sans-serif;font-weight: 1000;}
-.zakaz-beru2:hover {background: #ff7900; box-shadow: 0 0 30px #ff7900;}
+.zakaz-beru2:hover {background: rgb(204,0,0); box-shadow: 0 0 30px rgb(204,0,0);}
 .zakaz-beru2:hover a {color:white;}
 
 .sviaz {margin-bottom: calc(0.5em + 2vw); margin-top: calc(3em + 5vw);}
@@ -536,13 +541,13 @@ html, body  {margin:0;}
 }
 .sviaz .dotes {
     margin-top: 2px;
-    color: #ff7900;
+    color: rgb(204,0,0);
     font-size: calc(1.5em + 2vw);
     font-weight: 1000;
     margin-bottom: 20px;
 }
 .sviaz a {text-decoration: none; color:black;}
-.sviaz a:hover {color: #ff7900;}
+.sviaz a:hover {color: rgb(204,0,0);}
 .sviaz .ph-number {
     font-size: calc(0.5em + 1.5vw);
     font-family: 'Montserrat Alternates', sans-serif;
@@ -555,3 +560,4 @@ html, body  {margin:0;}
     border-bottom-left-radius: 12%;
     border-bottom-right-radius: 12%;
 }
+.proofs2 {display:none;}
